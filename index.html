@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
- <script src="q2.js"></script>   
+    <header> 
+        <h1>To Do List </h1>
+    </header>
+    <main>
+        <ol id="local">
+
+        </ol>
+        <form id="toDo">
+           
+            <fieldset>
+                <p id="current"></p>
+                <label id="label1" for="what">What Do You Want To Get Done Today ?</label>
+                <br><br>
+                <input type="text" id="what" placeholder="studying, reading, dancing ...">
+                <br><br><br>
+                <label id="label2" for="date">Date:</label>
+                <br><br>
+                <input type="date" id="date" placeholder="dd/mm/yyyy">
+                <br><br>
+                <input id="submit" type="submit">
+            
+            </fieldset>
+        </form>
+    </main>
+
+ <script src="q3.js"></script>
+ </script>   
 </body>
 </html>
